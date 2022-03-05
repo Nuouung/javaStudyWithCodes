@@ -9,6 +9,7 @@ public class SwapTestReference {
         swap(a, b);
 
         System.out.println("메소드 외부");
+
         System.out.println("a: " + a);
         System.out.println("b: " + b);
     }
@@ -17,7 +18,9 @@ public class SwapTestReference {
         String temp = a;
         a = b;
         b = temp;
+
         System.out.println("메소드 내부");
+
         System.out.println("a: " + a);
         System.out.println("b: " + b);
     }
